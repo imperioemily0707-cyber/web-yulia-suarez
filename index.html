@@ -1,0 +1,922 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Yulia Suárez · Юлия Суарес — vocalista y vocal coach en Moscú</title>
+<meta name="description" content="Юлия Суарес — живой вокал на гала-вечерах, свадьбах и корпоративах в Москве, уроки вокала. Yulia Suárez — voz en vivo para eventos y clases de canto en Moscú.">
+<meta property="og:title" content="Yulia Suárez · Юлия Суарес">
+<meta property="og:description" content="Живой голос вашего вечера · La voz en vivo de tu noche">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%237E5E92%27/%3E%3Ctext x=%2732%27 y=%2744%27 font-family=%27Georgia,serif%27 font-size=%2732%27 font-weight=%27700%27 fill=%27%23F4F1EC%27 text-anchor=%27middle%27%3EYS%3C/text%3E%3C/svg%3E">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: web oficial de artista, «Primavera clara» — fondo marfil, texto grafito, acento lila y detalles salvia; titulares Manrope 800 en mayúscula. Tarjetas blancas planas; gris clarito y gris ratón solo en precios, formulario y huecos de foto/video. */
+:root{
+  color-scheme: light;
+  --bg:#F4F1EC;        /* marfil */
+  --card:#FFFFFF;
+  --card2:#ECE7DF;
+  --line:#E2DCD2;
+  --line2:#C9C1B4;
+  --tx:#2F2F2D;        /* grafito */
+  --tx2:#6B6760;
+  --lime:#B79BC4;      /* lila: rellenos y bordes */
+  --acc:#7E5E92;       /* lila profundo: texto de acento */
+  --glow:183,155,196;  /* lila en RGB para luces y brillos */
+  --clay:#B97A33;      /* ocre cuero: botón «Ver fechas libres» */
+  --caramel:#8F5426;   /* carmelita oscuro y vivo: etiqueta «El más pedido» */
+  --gold:linear-gradient(100deg,#7A3A1C 0%,#A8532A 20%,#D06A3C 34%,#F29A6B 40%,#FFE3CF 44%,#FFFFFF 46%,#FFE3CF 48%,#F29A6B 52%,#D06A3C 58%,#A8532A 76%,#7A3A1C 100%);
+  --orange:#7E2F2A;    /* carmelita vino */
+  --sage:#A9C2B6;      /* salvia: detalles */
+  --sage-deep:#557466;
+  --lime-ink:#2F2F2D;
+  --gray-l:#E8EAED;    /* gris clarito (ruedita de ajustes) */
+  --gray-l-ink:#2F2F2D;
+  --gray-d:#D9D8D4;    /* gris ratón clarito */
+  --apple:#6E6E73;     /* gris del engranaje de Apple */
+  --display:"Manrope", "Helvetica Neue", Arial, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font-family:var(--display);font-size:16px;line-height:1.6;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 40px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:20;background:var(--bg)}
+body[data-l="es"] .ru{display:none!important}
+body[data-l="ru"] .es{display:none!important}
+.wrap{max-width:1160px;margin:0 auto}
+h1,h2,h3{font-weight:800;margin:0;line-height:.98;letter-spacing:-.03em;text-wrap:balance}
+h1{font-size:clamp(3rem,10.5vw,7rem);text-transform:uppercase;letter-spacing:-.045em}
+h2{font-size:clamp(2rem,6vw,3.6rem);text-transform:uppercase;letter-spacing:-.035em}
+h3{font-size:1.35rem;line-height:1.1}
+p{margin:0;max-width:62ch}
+.l{color:var(--acc)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:40px;height:1px;background:var(--sage-deep);flex:none}
+.lede{color:var(--tx2);font-size:clamp(16px,1.6vw,18px)}
+.tag{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--tx2)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+
+/* ---------- botones: suben, luz por fuera, rayito que cruza, se hunden ---------- */
+.btn{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;gap:10px;font:700 15px/1 var(--display);
+  border-radius:999px;padding:17px 26px;cursor:pointer;text-decoration:none;border:1px solid #D9D8D4;background:#FFFFFF;color:var(--tx);box-shadow:0 1px 2px rgba(47,47,45,.08),0 6px 14px -8px rgba(47,47,45,.25);
+  transition:transform .4s cubic-bezier(.2,.8,.2,1.3),box-shadow .4s ease,background-color .3s ease,border-color .3s ease,color .3s ease}
+.btn-lime{background:var(--lime);color:var(--lime-ink);border-color:var(--lime)}
+.btn-sm{padding:10px 16px;font-size:13px}
+.btn::after,.chip::after,.nav a::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.4) 50%,transparent 70%);transform:translateX(-130%);transition:transform .75s ease}
+@media (hover:hover) and (pointer:fine){
+  .btn:hover{transform:translateY(-5px) scale(1.04);border-color:var(--lime);
+    box-shadow:0 0 0 5px rgba(var(--glow),.14),0 0 34px 2px rgba(var(--glow),.32),0 20px 34px -14px rgba(47,47,45,.35)}
+  .btn:not(.btn-lime):hover{color:var(--acc)}
+  .btn:hover::after,.chip:hover::after,.nav a:hover::after{transform:translateX(130%)}
+}
+.btn:active,.chip:active,.nav a:active{transform:translateY(2px) scale(.95);transition-duration:.08s;box-shadow:inset 0 4px 10px rgba(47,47,45,.25)}
+.btn:active::after,.chip:active::after{transform:translateX(130%);transition-duration:.45s}
+.arr{display:inline-block;transition:transform .35s ease}
+.btn:hover .arr{transform:translate(3px,-3px)}
+
+/* ---------- cabecera ---------- */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:rgba(244,241,236,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+  margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:12px max(16px,env(safe-area-inset-left,0px))}
+.bar-in{max-width:1160px;margin:0 auto;display:flex;align-items:center;gap:14px 20px;justify-content:space-between;flex-wrap:wrap}
+.logo{font-weight:800;font-size:clamp(22px,2.4vw,27px);letter-spacing:-.03em;text-transform:uppercase;text-decoration:none;color:#4A2A5E;
+  text-shadow:0 1px 0 rgba(255,255,255,.6),0 6px 16px rgba(74,42,94,.18)}
+.logo b{color:#B79BC4;font-weight:800}
+.nav{display:flex;flex-wrap:wrap;gap:2px}
+.nav a{position:relative;overflow:hidden;isolation:isolate;display:inline-block;color:var(--tx);background:#E8EAED;margin:0 2px;text-decoration:none;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:7px 11px;border-radius:999px;transition:transform .35s cubic-bezier(.2,.8,.2,1.3),background-color .3s,color .3s,box-shadow .3s}
+@media (hover:hover) and (pointer:fine){.nav a:hover{transform:translateY(-2px);background:var(--lime);color:var(--lime-ink);box-shadow:0 0 22px rgba(var(--glow),.35)}}
+.bar-r{display:flex;align-items:center;gap:8px}
+.lang{display:flex;border:1px solid #D9D8D4;border-radius:999px;overflow:hidden;background:#E8EAED}
+.chip{position:relative;overflow:hidden;isolation:isolate;font:600 12px/1 var(--mono);letter-spacing:.08em;border:0;background:#E8EAED;color:var(--tx);padding:10px 13px;cursor:pointer;transition:transform .3s cubic-bezier(.2,.8,.2,1.3),background-color .3s,color .3s}
+.chip[aria-pressed="true"]{background:var(--lime);color:var(--lime-ink)}
+@media (max-width:860px){.nav{display:none}}
+
+/* ---------- portada ---------- */
+.hero{position:relative;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));overflow:hidden;border-bottom:1px solid var(--line)}
+#stage{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero-in{position:relative;max-width:1160px;margin:0 auto;padding:clamp(56px,9vw,110px) max(16px,env(safe-area-inset-left,0px)) 0;display:grid;gap:26px}
+.hero .lede{max-width:52ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.vid-note{position:absolute;right:max(16px,env(safe-area-inset-right,0px));top:18px;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--tx2);border:1px dashed var(--line2);border-radius:999px;padding:6px 12px;background:rgba(255,255,255,.7)}
+.quick{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:clamp(40px,7vw,80px)}
+.quick a{padding:20px 18px 22px;border-right:1px solid var(--line);text-decoration:none;color:var(--tx);display:grid;gap:4px;transition:background-color .3s}
+.quick a:last-child{border-right:0}
+.quick a:hover{background:rgba(var(--glow),.06)}
+.quick .num{font-family:var(--mono);font-size:11px;color:var(--sage-deep)}
+.quick b{font-size:19px;font-weight:800}
+.quick span{font-size:12.5px;color:var(--tx2)}
+@media (max-width:720px){.quick{grid-template-columns:1fr 1fr}.quick a:nth-child(2){border-right:0}.quick a:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+/* cinta */
+.ticker{overflow:hidden;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding-block:18px;border-bottom:1px solid var(--line)}
+.ticker-in{display:flex;gap:44px;width:max-content;animation:tick 34s linear infinite;font-weight:800;font-size:clamp(1.6rem,4.6vw,2.8rem);text-transform:uppercase;letter-spacing:-.03em;white-space:nowrap}
+.ticker-in span:nth-child(odd){color:transparent;-webkit-text-stroke:1px #B9B1A5}
+.ticker-in span:nth-child(even){color:var(--tx)}
+.ticker-in i{font-style:normal;color:var(--acc)}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* secciones */
+section{padding-block:clamp(64px,9vw,110px);border-bottom:1px solid var(--line);display:grid;gap:clamp(28px,4vw,44px);scroll-margin-top:60px}
+.head{display:grid;gap:16px}
+.head-row{display:flex;flex-wrap:wrap;gap:20px;align-items:end;justify-content:space-between}
+
+/* tres caminos */
+.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.path{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px;display:grid;gap:14px;align-content:start;text-decoration:none;color:var(--tx);min-width:0;
+  transition:transform .45s cubic-bezier(.2,.8,.2,1.2),border-color .3s,box-shadow .45s}
+.path h3{font-size:clamp(1.6rem,3vw,2.2rem);text-transform:uppercase;letter-spacing:-.03em}
+.path p{color:var(--tx2);font-size:15px}
+.path .go{font-weight:700;font-size:14px;color:var(--acc)}
+@media (hover:hover) and (pointer:fine){.path:hover{transform:translateY(-6px);border-color:var(--lime);box-shadow:0 0 40px -6px rgba(var(--glow),.28)}}
+@media (max-width:820px){.paths{grid-template-columns:1fr}}
+
+/* artista: videos */
+.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.reel{position:relative;aspect-ratio:9/14;max-width:100%;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:
+  radial-gradient(120% 70% at 50% 0%,rgba(var(--glow),.16),transparent 60%),linear-gradient(180deg,#E8EAED,#D9D8D4);display:flex;flex-direction:column;justify-content:flex-end;padding:20px;gap:6px}
+.reel .play{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:72px;height:72px;border-radius:50%;background:var(--lime);display:grid;place-items:center;
+  box-shadow:0 0 0 10px rgba(var(--glow),.12);transition:transform .4s cubic-bezier(.2,.8,.2,1.3),box-shadow .4s}
+.reel .play::before{content:"";border-left:20px solid var(--lime-ink);border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px}
+.reel:hover .play{transform:translate(-50%,-50%) scale(1.1);box-shadow:0 0 0 14px rgba(var(--glow),.16),0 0 40px rgba(var(--glow),.4)}
+.reel b{font-size:20px;font-weight:800;text-transform:uppercase;letter-spacing:-.02em}
+.reel .tag{color:var(--tx2)}
+.slot{position:absolute;top:14px;left:14px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--tx2);border:1px dashed var(--line2);border-radius:999px;padding:4px 10px}
+@media (max-width:820px){.reels{grid-template-columns:1fr 1fr}.reels .reel:last-child{grid-column:1/-1;aspect-ratio:16/10}}
+.rep{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:20px;background:var(--card)}
+.rep div:first-child{border-radius:20px 0 0 20px}.rep div:last-child{border-radius:0 20px 20px 0}
+.rep div{padding:22px;border-right:1px solid var(--line);display:grid;gap:8px;align-content:start;min-width:0}
+.rep div:last-child{border-right:0}
+.rep b{font-size:17px;font-weight:800;text-transform:uppercase}
+.rep p{font-size:14.5px;color:var(--tx2)}
+@media (max-width:820px){.rep div:nth-child(n){border-radius:0}.rep{grid-template-columns:1fr 1fr}.rep div:nth-child(2){border-right:0}.rep div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+/* eventos */
+.formats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.fmt{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px;display:grid;gap:12px;align-content:start;min-width:0}
+.fmt.top{border-color:var(--lime)}
+.fmt h3{text-transform:uppercase;font-size:1.5rem;letter-spacing:-.03em}
+.fmt ul{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:15px;color:var(--tx2)}
+.fmt li::before{content:"— ";color:var(--acc)}
+.price{font-size:26px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.price small{font-size:13px;color:var(--tx2);font-weight:500;letter-spacing:0}
+.badge{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;background:var(--lime);color:var(--lime-ink);border-radius:999px;padding:5px 10px;width:fit-content}
+@media (max-width:820px){.formats{grid-template-columns:1fr}}
+.occasions{display:flex;flex-wrap:wrap;gap:8px}
+.occasions{gap:12px;padding-bottom:6px}
+.occ{font:700 14px/1 var(--display);color:var(--tx);cursor:pointer;border:1px solid #D9D8D4;border-radius:14px;padding:13px 18px;
+  background:linear-gradient(180deg,#F3F4F6,#E8EAED);
+  box-shadow:inset 0 1px 0 #FFFFFF,0 5px 0 #C8CACE,0 9px 16px -6px rgba(47,47,45,.35);
+  transform:translateY(0);transition:transform .14s ease,box-shadow .14s ease,color .2s ease,background .2s ease}
+@media (hover:hover) and (pointer:fine){.occ:hover{transform:translateY(-2px);box-shadow:inset 0 1px 0 #FFFFFF,0 7px 0 #C8CACE,0 13px 20px -6px rgba(47,47,45,.35)}}
+.occ:active,.occ[aria-pressed="true"]{transform:translateY(5px);background:linear-gradient(180deg,#E3E5E8,#E8EAED);color:var(--acc);
+  box-shadow:inset 0 3px 6px rgba(47,47,45,.18),0 0 0 #C8CACE,0 2px 4px -2px rgba(47,47,45,.25)}
+.rider{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;font-size:14.5px;color:var(--tx2)}
+.rider div{border-top:1px solid var(--line);padding-top:12px}
+.rider b{display:block;color:var(--tx);font-size:15px;margin-bottom:2px}
+
+/* clases: proceso + precios (gris oscuro) */
+/* pasos transparentes como en la web de ART FACTORY, con YULIA en contorno detrás */
+.steps-wrap{position:relative;isolation:isolate;padding:clamp(28px,4vw,56px) 0}
+.steps-word{position:absolute;inset:0;z-index:-1;display:grid;place-items:center;pointer-events:none;user-select:none;overflow:hidden;
+  font-size:clamp(110px,19vw,300px);font-weight:900;line-height:1;letter-spacing:-.06em;color:transparent;-webkit-text-stroke:1.2px rgba(126,94,146,.22)}
+@media (max-width:900px){.steps-word span{transform:rotate(-90deg);font-size:clamp(120px,34vw,220px)}}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line2);border-radius:20px;background:transparent}
+.steps div:first-child{border-radius:20px 0 0 20px}.steps div:last-child{border-radius:0 20px 20px 0}
+.steps div{position:relative;padding:22px 18px;border-right:1px solid var(--line2);display:grid;gap:8px;align-content:start;min-width:0;background:transparent;
+  transition:transform .4s cubic-bezier(.2,.8,.2,1.3),background-color .3s,box-shadow .4s}
+@media (hover:hover) and (pointer:fine){.steps div:hover{transform:translateY(-5px);background:rgba(var(--glow),.3);z-index:1;border-radius:14px;
+  box-shadow:0 0 0 4px rgba(var(--glow),.2),0 0 30px rgba(var(--glow),.45)}}
+.steps div:active{transform:translateY(2px)}
+.steps div:last-child{border-right:0}
+.steps .num{font-family:var(--mono);font-size:11px;color:var(--acc)}
+.steps b{font-size:16px;font-weight:800;text-transform:uppercase}
+.steps p{font-size:14px;color:var(--tx2)}
+@media (max-width:900px){.steps{grid-template-columns:1fr}.steps div{border-right:0;border-bottom:1px solid var(--line2)}.steps div:last-child{border-bottom:0}.steps div:first-child{border-radius:20px 20px 0 0}.steps div:last-child{border-radius:0 0 20px 20px}}
+.prices{background:var(--gray-d);color:var(--tx);border-radius:20px;padding:6px}
+.prow{position:relative;display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;padding:20px 22px;border-radius:14px;border-bottom:1px solid rgba(47,47,45,.12);
+  transition:transform .4s cubic-bezier(.2,.8,.2,1.3),background-color .3s,color .3s,box-shadow .4s}
+@media (hover:hover) and (pointer:fine){.prow:hover{transform:translateY(-4px) scale(1.01);background:var(--apple);color:#FFFFFF;border-color:transparent;z-index:1;
+  box-shadow:0 14px 28px -12px rgba(47,47,45,.55)}.prow:hover p{color:#E5E5EA}.prow:hover .price{color:#FFFFFF}
+  .prow.hit:hover{background:var(--lime);color:var(--tx);box-shadow:0 0 0 5px rgba(var(--glow),.25),0 0 34px rgba(var(--glow),.55),0 14px 28px -12px rgba(47,47,45,.4)}.prow.hit:hover p,.prow.hit:hover .price{color:var(--tx)}}
+.prow:last-child{border-bottom:0}
+.prow b{font-size:17px;font-weight:700}
+.prow p{font-size:14px;color:var(--tx2)}
+.prow .price{font-size:22px}
+.prow.hit{background:rgba(var(--glow),.3)}
+@media (max-width:640px){.prow{grid-template-columns:1fr auto}.prow .btn{grid-column:1/-1;justify-self:start}}
+
+/* fotos */
+.gallery{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:clamp(120px,16vw,200px);gap:10px}
+.ph{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:
+  radial-gradient(80% 90% at 50% 10%,rgba(255,255,255,.7),transparent 60%),linear-gradient(160deg,#E8EAED,#D9D8D4);display:flex;align-items:flex-end;padding:14px;min-width:0}
+.ph span{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx2)}
+.ph:nth-child(1){grid-column:span 3;grid-row:span 2}
+.ph:nth-child(2),.ph:nth-child(3){grid-column:span 3}
+.ph:nth-child(4),.ph:nth-child(5),.ph:nth-child(6){grid-column:span 2}
+@media (max-width:640px){.gallery{grid-template-columns:1fr 1fr}.ph:nth-child(n){grid-column:span 1;grid-row:span 1}.ph:nth-child(1){grid-column:1/-1;grid-row:span 2}}
+
+/* opiniones */
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.q{position:relative;background:#FFFFFF;border:1px solid #D9D8D4;border-radius:20px;padding:26px 24px 22px;display:grid;gap:10px;color:var(--tx2);font-size:15px;min-width:0;
+  box-shadow:0 1px 2px rgba(47,47,45,.06),0 10px 22px -14px rgba(47,47,45,.3);transition:transform .4s cubic-bezier(.2,.8,.2,1.3),box-shadow .4s}
+.q::before{content:"\201C";font:800 54px/0.6 var(--display);color:var(--lime)}
+.q i{font-style:normal;font-size:13px;color:var(--tx2);border-top:1px solid var(--line);padding-top:10px}
+@media (hover:hover) and (pointer:fine){.q:hover{transform:translateY(-5px);box-shadow:0 0 0 4px rgba(var(--glow),.18),0 18px 30px -14px rgba(47,47,45,.35)}}
+.q b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+@media (max-width:820px){.quotes{grid-template-columns:1fr}}
+
+/* final */
+.final{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,60px);align-items:start}
+.final h2{font-size:clamp(2.6rem,8vw,5.4rem)}
+@media (max-width:860px){.final{grid-template-columns:1fr}}
+/* gris claro: formulario */
+form.book{position:relative;color:#FFFFFF;
+  background:radial-gradient(ellipse 75% 60% at 50% 45%,#A1A1A6 0%,#8E8E93 35%,#6E6E73 75%,#5C5C61 100%);
+  border:1px solid rgba(255,255,255,.28);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35),inset 0 -1px 0 rgba(0,0,0,.15),
+    0 2px 4px rgba(20,20,22,.18),0 18px 34px -12px rgba(20,20,22,.45),0 46px 80px -28px rgba(20,20,22,.6);
+  transform:translateY(-6px);padding-bottom:44px !important;overflow:hidden;isolation:isolate;
+  transition:transform .5s cubic-bezier(.2,.8,.2,1.2),box-shadow .5s ease;animation:float 6s ease-in-out infinite;border-radius:22px;padding:clamp(20px,3.5vw,32px);display:grid;gap:14px}
+@keyframes float{0%,100%{translate:0 0}50%{translate:0 -5px}}
+@media (hover:hover) and (pointer:fine){
+  form.book:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 0 0 6px rgba(var(--glow),.25),0 0 50px rgba(var(--glow),.45),
+    0 24px 40px -12px rgba(20,20,22,.5),0 60px 100px -30px rgba(20,20,22,.65)}
+}
+form.book::after{content:"";position:absolute;left:50%;bottom:14px;transform:translateX(-50%);width:134px;height:5px;border-radius:999px;
+  background:linear-gradient(90deg,rgba(255,255,255,.55),rgba(255,255,255,.9) 50%,rgba(255,255,255,.55));box-shadow:0 1px 2px rgba(0,0,0,.2)}
+form.book h3{font-size:1.6rem;text-transform:uppercase;letter-spacing:-.03em;color:#FFFFFF}
+.fld{display:grid;gap:6px;font-size:13px;font-weight:600;color:#F2F2F7}
+.fld input,.fld select,.fld textarea{font:500 15px var(--display);color:var(--gray-l-ink);background:#FFFFFF;border:1px solid #D9D8D4;border-radius:12px;padding:13px 14px;width:100%;color-scheme:light}
+.fld textarea{min-height:80px;resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.two{grid-template-columns:1fr}}
+form.book .btn-lime,form.book .btn-deep{justify-self:start}
+.legal{font-size:12px;color:#E5E5EA}
+.sent{background:#2F2F2D;color:#fff;border-radius:12px;padding:12px 14px;font-size:14px}
+.contacts{display:grid;gap:16px;margin-top:24px}
+.contacts div{border-top:1px solid var(--line);padding-top:14px;display:grid;gap:2px}
+.contacts b{font-size:18px}
+
+footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding-top:26px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--tx2)}
+
+/* huecos de material: se sube un archivo y se ve en su sitio */
+.media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.hero .media{opacity:1}
+.hero.has-media #stage{display:none}
+#hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,16,14,.70) 0%,rgba(18,16,14,.42) 50%,rgba(18,16,14,.12) 100%),linear-gradient(0deg,rgba(18,16,14,.55),transparent 35%)}
+/* con video real detrás, el texto de la portada pasa a claro */
+.hero.has-media h1,.hero.has-media .lede,.hero.has-media .quick b{color:#F4F1EC}
+.hero.has-media .lede{color:rgba(244,241,236,.88)}
+.hero.has-media .eyebrow{color:#E9DDF0}.hero.has-media .eyebrow::before{background:#E9DDF0}
+.hero.has-media .quick{border-top-color:rgba(244,241,236,.25)}
+.hero.has-media .quick a{border-right-color:rgba(244,241,236,.18);color:#F4F1EC}
+.hero.has-media .quick span{color:rgba(244,241,236,.7)}.hero.has-media .quick .num{color:#C9DDD3}
+.hero.has-media h1 .l .ch,.hero.has-media h1 .l:not(:has(.ch)){background-image:linear-gradient(180deg,#D9506B,#9E2B45)}
+@media (max-width:720px){.hero.has-media .quick a:nth-child(-n+2){border-bottom-color:rgba(244,241,236,.18)}}
+.has-media .play,.has-media .ph-t{display:none}
+.reel.has-media b,.reel.has-media .tag{color:#FFFFFF!important}
+.reel,.ph{isolation:isolate}
+.reel .tag,.reel b,.ph-t{position:relative;z-index:1}
+.reel .play{z-index:1}
+.reel.has-media::after,.ph.has-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.75));z-index:0;pointer-events:none}
+.up{position:absolute;z-index:3;cursor:pointer;font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--tx);background:rgba(255,255,255,.88);
+  border:1px dashed var(--lime);border-radius:999px;padding:8px 12px;overflow:hidden;isolation:isolate;
+  transition:transform .35s cubic-bezier(.2,.8,.2,1.3),box-shadow .35s,background-color .3s,color .3s}
+.up::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.4) 50%,transparent 70%);transform:translateX(-130%);transition:transform .75s ease}
+@media (hover:hover) and (pointer:fine){.up:hover{transform:translateY(-3px);background:var(--lime);color:var(--lime-ink);box-shadow:0 0 26px rgba(var(--glow),.4)}.up:hover::after{transform:translateX(130%)}}
+.up:active{transform:translateY(1px) scale(.95)}
+.up input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.up-hero{right:max(16px,env(safe-area-inset-right,0px));top:18px}
+.reel .up,.ph .up{top:12px;left:12px}
+.reel:not(.has-media) .play{display:none}
+.reel:not(.has-media) .up{top:38%;left:0;right:0;margin:auto;width:fit-content;font-size:13px;padding:14px 18px;background:#FFFFFF;border:1px dashed var(--acc);color:var(--acc)}
+.ph:not(.has-media) .up{background:#FFFFFF;color:var(--acc)}
+.has-media .up{opacity:.0}
+.has-media:hover .up,.has-media:focus-within .up{opacity:1}
+.sound{position:absolute;z-index:3;right:12px;top:12px;font:600 11px/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;background:var(--lime);color:var(--lime-ink);border:0;border-radius:999px;padding:8px 11px;cursor:pointer}
+.howmat{border:1px dashed var(--line2);border-radius:16px;padding:16px 18px;font-size:14px;color:var(--tx2);display:grid;gap:6px}
+.howmat b{color:var(--lime);font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+
+/* terracota oscura para lo principal */
+/* «de tu noche» en dorado que corre */
+h1 .l:not(:has(.ch)),h1 .l .ch,#eventos h2 .l:not(:has(.ch)),#eventos h2 .l .ch{background-image:var(--gold);background-size:700px 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:gold 2.6s cubic-bezier(.45,.05,.55,.95) infinite,bob 2.8s ease-in-out infinite;animation-delay:0s,calc(var(--i,0) * 70ms);
+  filter:drop-shadow(0 2px 0 rgba(122,58,28,.3)) drop-shadow(0 0 14px rgba(242,154,107,.35)) drop-shadow(0 10px 18px rgba(208,106,60,.35))}
+@keyframes bob{0%,100%{translate:0 0}50%{translate:0 -5px}}
+h1 .l .ch,#eventos h2 .l .ch{background-position:calc(var(--x,0px) * -1) 0}
+@keyframes gold{from{background-position:calc(var(--x,0px) * -1) 0}to{background-position:calc(var(--x,0px) * -1 - 700px) 0}}
+h1.wave .l .ch,h1.wave .l .ch,#eventos h2.wave .l .ch{animation:rise .7s cubic-bezier(.2,.8,.2,1.3) both,gold 2.6s cubic-bezier(.45,.05,.55,.95) infinite,bob 2.8s ease-in-out infinite;animation-delay:calc(var(--i) * 28ms),0s,calc(var(--i) * 70ms)}
+h1 .l .ch.on,#eventos h2 .l .ch.on{color:transparent;filter:brightness(1.15) drop-shadow(0 6px 14px rgba(200,105,63,.55))}
+.badge{background:linear-gradient(180deg,#9A4038,var(--orange))!important;color:#FFFFFF!important;border:1px solid #5C211E;box-shadow:0 0 0 3px rgba(126,47,42,.2),0 0 18px rgba(126,47,42,.45),0 4px 12px -4px rgba(201,98,63,.6)}
+.btn-deep{background:linear-gradient(180deg,#9A4038,var(--orange));border-color:#5C211E;color:#FFFFFF}
+@media (hover:hover) and (pointer:fine){.btn-deep:hover{color:#FFFFFF!important;border-color:#4A1A18;
+  box-shadow:0 0 0 5px rgba(126,47,42,.2),0 0 34px 2px rgba(126,47,42,.5),0 20px 34px -14px rgba(47,47,45,.35)}}
+
+/* en Eventos, «para tu noche» con el mismo color pero sin el brillo que pasa */
+h1 .l .ch,h1 .l:not(:has(.ch)),#eventos h2 .l .ch,#eventos h2 .l:not(:has(.ch)){background-image:linear-gradient(180deg,#D06A3C,#A8532A);background-size:100% 100%;background-position:0 0;
+  animation:bob 2.8s ease-in-out infinite;animation-delay:calc(var(--i,0) * 70ms)}
+#eventos h2.wave .l .ch{animation:rise .7s cubic-bezier(.2,.8,.2,1.3) both,bob 2.8s ease-in-out infinite;animation-delay:calc(var(--i) * 28ms),calc(var(--i) * 70ms)}
+
+/* en Eventos, «Un formato» se pinta al pasar con el mismo naranja de «para tu noche» */
+#eventos h2 .ch.on{background-image:linear-gradient(180deg,#D06A3C,#A8532A);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* opiniones: mismo gris que la Solicitud y se encienden en verde al pasar */
+#opiniones .q{background:#808085;border:1px solid rgba(255,255,255,.28);color:#F2F2F7;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 2px 4px rgba(20,20,22,.18),0 18px 34px -12px rgba(20,20,22,.45);
+  transition:transform .45s cubic-bezier(.2,.8,.2,1.3),box-shadow .45s ease,background .45s ease,border-color .3s}
+#opiniones .q b{color:#CFE0F4}
+#opiniones .q i{color:rgba(242,242,247,.75);border-top-color:rgba(255,255,255,.2)}
+#opiniones .q::before{color:#A9C6E8}
+@media (hover:hover) and (pointer:fine){#opiniones .q:hover{transform:translateY(-6px) scale(1.02);border-color:#7FA6D1;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 0 0 1px rgba(31,63,99,.5),0 0 26px rgba(31,63,99,.45),0 38px 48px -10px rgba(31,63,99,.9),0 56px 70px -14px rgba(20,40,66,.7),0 22px 38px -14px rgba(20,20,22,.5)}
+  #opiniones .q:hover b,#opiniones .q:hover::before{color:#FFFFFF}}
+#opiniones .q:active{transform:translateY(2px) scale(.98);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 0 26px rgba(31,63,99,.45),0 32px 44px -10px rgba(31,63,99,.9)}
+
+/* repertorio y formatos: aro de luz controlado + sombrita, como «Ver fechas libres» */
+.rep div,.fmt{position:relative;--led:52,99,148;transition:transform .45s cubic-bezier(.2,.8,.2,1.3),box-shadow .45s ease,background-color .3s,border-color .3s}
+.fmt{--led:208,106,60}
+.rep div{background:var(--card)}
+@media (hover:hover) and (pointer:fine){
+  .rep div:hover,.fmt:hover{transform:translateY(-5px);z-index:1;border-radius:18px;
+    box-shadow:0 0 0 5px rgba(var(--led),.2),0 0 34px 2px rgba(var(--led),.42),0 20px 34px -14px rgba(47,47,45,.35)}
+  .fmt:hover{border-radius:20px}}
+.rep div:active,.fmt:active{transform:translateY(-2px);box-shadow:0 0 0 5px rgba(var(--led),.2),0 0 30px rgba(var(--led),.4),0 14px 24px -12px rgba(47,47,45,.35)}
+
+/* «de tu noche» de la portada en rojo vino */
+h1 .l .ch,h1 .l:not(:has(.ch)){background-image:linear-gradient(180deg,#9E2B45,#6E1D31)}
+h1 .l .ch.on{filter:brightness(1.2) drop-shadow(0 6px 14px rgba(158,43,69,.55))}
+h1 .l .ch,h1 .l:not(:has(.ch)){filter:drop-shadow(0 2px 0 rgba(80,18,34,.35)) drop-shadow(0 10px 18px rgba(158,43,69,.35))}
+
+/* caminos y repertorio en el mismo gris que las opiniones */
+.path,.rep div{background:#808085!important;border-color:rgba(255,255,255,.28)!important;color:#F2F2F7}
+.path{box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 2px 4px rgba(20,20,22,.18),0 18px 34px -12px rgba(20,20,22,.45)}
+.rep{background:#808085;border-color:rgba(255,255,255,.28)}
+.rep div{border-right-color:rgba(255,255,255,.2)!important;border-bottom-color:rgba(255,255,255,.2)!important}
+.path p,.rep p{color:rgba(242,242,247,.82)!important}
+.path .tag{color:rgba(242,242,247,.72)}
+.path p{color:#2C2C2F!important;font-weight:500}
+.path .go{color:#EBDDF3}
+.rep b,.path h3{color:#FFFFFF}
+@media (hover:hover) and (pointer:fine){.path:hover{border-color:#D7C3E3!important;
+  box-shadow:0 0 0 5px rgba(183,155,196,.25),0 0 34px 2px rgba(183,155,196,.5),0 20px 34px -14px rgba(20,20,22,.45)!important}}
+
+/* repertorio: cristal azulito transparente que se enciende en azul cielo pastel */
+.rep{background:rgba(127,166,209,.10)!important;border-color:rgba(127,166,209,.45)!important;backdrop-filter:blur(6px)}
+.rep div{transition:transform .45s cubic-bezier(.2,.8,.2,1.3),box-shadow .45s ease,background-color .35s ease,border-color .3s!important;background:linear-gradient(255deg,rgba(150,190,232,.24),rgba(170,205,240,.10) 70%)!important;border-color:rgba(120,175,225,.38)!important;color:var(--tx)!important;--led:31,63,99}
+.rep b{color:#1F3F63!important}
+.rep p{color:#3D5370!important}
+@media (hover:hover) and (pointer:fine){.rep div:hover{border-color:#1F3F63!important;
+  box-shadow:0 0 0 2px #1F3F63,0 0 0 6px rgba(31,63,99,.25),0 0 40px 6px rgba(31,63,99,.55),0 22px 36px -12px rgba(31,63,99,.55)!important}}
+.rep div:active{box-shadow:0 0 0 5px rgba(31,63,99,.22),0 0 30px rgba(31,63,99,.5)!important}
+
+/* menú de arriba y «Reservar»: como «Ver fechas libres» pero en morado */
+.nav a,.bar .btn-lime{background:linear-gradient(180deg,#A587B8,#7E5E92)!important;color:#FFFFFF!important;border:1px solid #6E4F83!important;
+  box-shadow:0 1px 2px rgba(47,47,45,.12),0 6px 14px -8px rgba(110,79,131,.55)}
+.nav a{margin:0 3px}
+@media (hover:hover) and (pointer:fine){.nav a:hover,.bar .btn-lime:hover{color:#FFFFFF!important;border-color:#5C4070!important;transform:translateY(-3px) scale(1.04);
+  box-shadow:0 0 0 5px rgba(126,94,146,.2),0 0 30px 2px rgba(126,94,146,.5),0 16px 28px -12px rgba(47,47,45,.35)!important}}
+.nav a:active,.bar .btn-lime:active{transform:translateY(2px) scale(.95);box-shadow:inset 0 3px 8px rgba(40,20,55,.35)!important}
+
+/* «escenario» en Fotos: rojo vino violeta oscuro, como «de tu noche» */
+#fotos h2 .l .ch,#fotos h2 .l:not(:has(.ch)){background-image:linear-gradient(180deg,#8A2C55,#561A38);-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:bob 2.8s ease-in-out infinite;animation-delay:calc(var(--i,0) * 70ms);
+  filter:drop-shadow(0 2px 0 rgba(60,16,38,.3)) drop-shadow(0 10px 18px rgba(138,44,85,.3))}
+#fotos h2.wave .l .ch{animation:rise .7s cubic-bezier(.2,.8,.2,1.3) both,bob 2.8s ease-in-out infinite;animation-delay:calc(var(--i) * 28ms),calc(var(--i) * 70ms)}
+#fotos h2 .l .ch.on{color:transparent;filter:brightness(1.2) drop-shadow(0 6px 14px rgba(138,44,85,.5))}
+#fotos h2 .ch.on{background-image:linear-gradient(180deg,#8A2C55,#561A38);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* cada sección con su color y su sensación */
+section{background:radial-gradient(70% 55% at 88% 0%,rgba(var(--glow),.22),transparent 70%)}
+#artista{--lime:#7FA6D1;--acc:#2D5B8A;--glow:52,99,148}       /* azul profundo: emoción; contrasta con el naranja y casa con el lila */
+#eventos{--lime:#C8928A;--acc:#7E2F2A;--glow:126,47,42}      /* naranja: fiesta y acción */
+#clases{--lime:#B79BC4;--acc:#7E5E92;--glow:183,155,196}      /* morado: la marca de Yulia */
+#fotos{--lime:#B79BC4;--acc:#5A1C3F;--glow:183,155,196}       /* morado vino */
+#opiniones{--lime:#7FA6D1;--acc:#2D5B8A;--glow:45,91,138}     /* azul: confianza */
+section .eyebrow::before{background:var(--acc)}
+.sense{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);display:inline-flex;align-items:center;gap:8px;justify-self:start}
+.sense::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 4px rgba(var(--glow),.3)}
+
+/* letras vivas: cada letra sube y crece cerca del dedo o del ratón */
+.w{display:inline-block;white-space:nowrap}
+.ch{display:inline-block;transform-origin:50% 85%;will-change:transform;
+  transition:transform .45s cubic-bezier(.2,.8,.2,1.4),color .35s ease,text-shadow .35s ease}
+.ch.on{color:var(--acc)}
+h1 .l .ch.on{color:var(--tx)}
+@keyframes rise{0%{transform:translateY(0)}35%{transform:translateY(-.16em) scale(1.12)}100%{transform:translateY(0)}}
+.wave .ch{animation:rise .7s cubic-bezier(.2,.8,.2,1.3) both;animation-delay:calc(var(--i) * 28ms)}
+
+/* letras quietas: solo saltan cuando las tocas o pasas por encima */
+h1 .ch,h2 .ch,h1 .l:not(:has(.ch)),h2 .l:not(:has(.ch)){animation:none!important;translate:none}
+h1.wave .ch,h2.wave .ch{animation:rise .7s cubic-bezier(.2,.8,.2,1.3) both!important;animation-delay:calc(var(--i) * 28ms)!important}
+/* «escenario» en un solo morado vino oscuro, sin degradado */
+#fotos h2 .l .ch,#fotos h2 .l:not(:has(.ch)),#fotos h2 .ch.on{background-image:linear-gradient(#5A1C3F,#5A1C3F)!important}
+
+/* sellos con instrumento arriba a la derecha de cada sección: llevan a la Solicitud */
+section{position:relative}
+.seal{position:absolute;top:clamp(10px,2.4vw,26px);right:0;width:clamp(54px,6vw,74px);aspect-ratio:1;max-width:100%;border-radius:50%;display:grid;place-items:center;
+  color:var(--c);background:rgba(255,255,255,.55);backdrop-filter:blur(6px);border:1.5px solid rgba(var(--cg),.55);text-decoration:none;cursor:pointer;
+  box-shadow:inset 0 0 0 4px rgba(244,241,236,.9),inset 0 0 0 5px rgba(var(--cg),.28),0 6px 16px -8px rgba(var(--cg),.5);
+  transition:transform .45s cubic-bezier(.2,.8,.2,1.4),box-shadow .45s ease,background-color .3s}
+.seal svg{width:46%;height:46%;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .45s cubic-bezier(.2,.8,.2,1.4)}
+.seal svg .f{fill:currentColor;stroke:none}
+@media (hover:hover) and (pointer:fine){.seal:hover{transform:translateY(-4px) rotate(-8deg) scale(1.06);background:#FFFFFF;
+  box-shadow:inset 0 0 0 4px #FFFFFF,inset 0 0 0 5px rgba(var(--cg),.45),0 0 0 5px rgba(var(--cg),.18),0 0 34px 4px rgba(var(--cg),.5),0 14px 26px -12px rgba(47,47,45,.35)}
+  .seal:hover svg{transform:scale(1.1)}}
+.seal:active{transform:translateY(2px) scale(.94)}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(183,155,196,.7)}100%{box-shadow:0 0 0 22px rgba(183,155,196,0)}}
+form.book.ping{animation:ping .9s ease-out 2,float 6s ease-in-out infinite}
+
+/* «de tu noche» y «para tu noche»: un solo naranja Claude, sin brillo ni sombra detrás */
+h1 .l .ch,h1 .l:not(:has(.ch)),.hero.has-media h1 .l .ch,.hero.has-media h1 .l:not(:has(.ch)),
+#eventos h2 .l .ch,#eventos h2 .l:not(:has(.ch)),#eventos h2 .ch.on{background-image:linear-gradient(#7E2F2A,#7E2F2A)!important;filter:none!important}
+.hero.has-media h1 .l .ch,.hero.has-media h1 .l:not(:has(.ch)){background-image:linear-gradient(#B2483F,#B2483F)!important}
+h1 .l .ch.on,#eventos h2 .l .ch.on{filter:none!important}
+
+/* «escenario»: texto liso, sin sombra, sin brillo y sin movimiento */
+#fotos h2 .l .ch,#fotos h2 .l:not(:has(.ch)){background-image:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;
+  color:#5A1C3F!important;filter:none!important;animation:none!important;transform:none!important;translate:none!important}
+
+/* onda de sonido de ART FACTORY: barritas que suben y bajan detrás de palabras sueltas */
+.wv{position:relative;isolation:isolate}
+.eq{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:.32em;z-index:-1;pointer-events:none;color:var(--eqc,var(--lime));font-size:var(--eqs,20px)}
+.eq i{display:block;width:2px;height:var(--h);border-radius:2px;background:currentColor;opacity:.5;box-shadow:0 0 10px currentColor,0 0 18px currentColor;
+  transform-origin:center;animation:eqp 2.6s ease-in-out infinite;animation-delay:var(--d)}
+@keyframes eqp{0%,100%{transform:scaleY(.5);opacity:.4}50%{transform:scaleY(1.2);opacity:1}}
+/* «Reservar»: sin botón, solo la palabra con la onda iluminada detrás */
+.book-word{display:inline-flex;align-items:center;justify-content:center;font:800 13px/1 var(--display);letter-spacing:.16em;text-transform:uppercase;
+  color:#4A2A5E;text-decoration:none;padding:14px 16px;cursor:pointer;transition:color .3s,transform .35s cubic-bezier(.2,.8,.2,1.3)}
+.bar .book-word{--eqc:#B79BC4;--eqs:22px}
+@media (hover:hover) and (pointer:fine){.book-word:hover{color:var(--acc);transform:translateY(-2px)}.book-word:hover .eq i{opacity:1;animation-duration:1.3s}}
+.book-word:active{transform:translateY(1px) scale(.96)}
+.prow .book-word{color:var(--acc);--eqs:18px}
+@media (hover:hover) and (pointer:fine){.prow:hover .book-word{color:#FFFFFF}.prow.hit:hover .book-word{color:var(--tx)}}
+/* «en vivo»: la onda pasa por detrás del título */
+h2 .l.wv{display:inline-block;--eqs:.95em}
+/* Gala, Boda…: sin botón, la palabra sola con lucecitas que parpadean */
+.occ{background:none!important;border:0!important;box-shadow:none!important;transform:none!important;padding:14px 12px;font:800 14px/1 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--tx);--eqs:17px}
+.occ .eq i{opacity:.35}
+@media (hover:hover) and (pointer:fine){.occ:hover{color:var(--acc)}.occ:hover .eq i{opacity:.9}}
+.occ[aria-pressed="true"]{color:var(--acc)}
+.occ[aria-pressed="true"] .eq i{opacity:1;animation-duration:1.4s}
+@media (max-width:640px){.prow .book-word{grid-column:1/-1;justify-self:start}}
+
+/* formatos como en ART FACTORY: los de los lados transparentes con filito y un círculo que se agranda al tocar; el del medio, el único de color, con la onda */
+#eventos .fmt{background:transparent!important;border:1px solid rgba(var(--glow),.45)!important;overflow:hidden;isolation:isolate;--led:126,47,42}
+#eventos .fmt>*{position:relative;z-index:1}
+.orbit{position:absolute!important;z-index:0!important;width:260px;height:260px;border:1px solid rgba(var(--glow),.32);border-radius:50%;right:-90px;top:-80px;pointer-events:none;
+  transition:transform .6s cubic-bezier(.2,.7,.1,1),border-color .6s}
+#eventos .fmt:hover .orbit,#eventos .fmt:active .orbit{transform:scale(1.22) rotate(22deg);border-color:rgba(var(--glow),.75)}
+#eventos .fmt.top{background:linear-gradient(160deg,#9A4038,#7E2F2A 70%)!important;border-color:#5C211E!important;color:#FFFFFF}
+#eventos .fmt.top h3,#eventos .fmt.top .price{color:#FFFFFF}
+#eventos .fmt.top ul,#eventos .fmt.top .price small{color:rgba(255,255,255,.82)}
+#eventos .fmt.top li::before{color:#F2C9BF}
+#eventos .fmt.top .badge{background:#FFFFFF!important;color:#7E2F2A!important;border-color:#FFFFFF;box-shadow:0 4px 12px -4px rgba(0,0,0,.35)}
+.eq-mini{position:absolute!important;right:24px;top:24px;display:flex;align-items:center;gap:5px;height:70px;pointer-events:none}
+.eq-mini i{display:block;width:2px;height:22px;border-radius:2px;background:#FFFFFF;box-shadow:0 0 8px rgba(255,255,255,.6);animation:eqm 1.7s ease-in-out infinite}
+.eq-mini i:nth-child(2n){height:48px}.eq-mini i:nth-child(3n){height:66px}
+.eq-mini i:nth-child(2){animation-delay:.12s}.eq-mini i:nth-child(3){animation-delay:.24s}.eq-mini i:nth-child(4){animation-delay:.36s}
+.eq-mini i:nth-child(5){animation-delay:.48s}.eq-mini i:nth-child(6){animation-delay:.6s}.eq-mini i:nth-child(7){animation-delay:.72s}
+@keyframes eqm{0%,100%{transform:scaleY(.6);opacity:.35}50%{transform:scaleY(1.25);opacity:.95}}
+
+/* «¿Por dónde empiezo?» como los formatos: los de los lados transparentes con filito y círculo, el del medio el único de color con la onda;
+   al pasar por encima los transparentes se encienden en azul, como el repertorio */
+#empezar .path{background:transparent!important;border:1px solid rgba(var(--glow),.5)!important;box-shadow:none!important;color:var(--tx);overflow:hidden;isolation:isolate;position:relative}
+#empezar .path>*{position:relative;z-index:1}
+#empezar .path h3{color:var(--tx)}
+#empezar .path p{color:var(--tx2)!important;font-weight:400}
+#empezar .path .tag{color:var(--tx2)}
+#empezar .path .go{color:var(--acc)}
+#empezar .path:hover .orbit,#empezar .path:active .orbit{transform:scale(1.22) rotate(22deg);border-color:rgba(31,63,99,.55)}
+@media (hover:hover) and (pointer:fine){#empezar .path:not(.top):hover{background:linear-gradient(255deg,rgba(150,190,232,.24),rgba(170,205,240,.10) 70%)!important;border-color:#1F3F63!important;
+  box-shadow:0 0 0 2px #1F3F63,0 0 0 6px rgba(31,63,99,.25),0 0 40px 6px rgba(31,63,99,.55),0 22px 36px -12px rgba(31,63,99,.55)!important}
+  #empezar .path:not(.top):hover h3,#empezar .path:not(.top):hover .go{color:#1F3F63}}
+#empezar .path:not(.top):active{border-color:#1F3F63!important;box-shadow:0 0 0 5px rgba(31,63,99,.22),0 0 30px rgba(31,63,99,.5)!important}
+#empezar .path.top{background:linear-gradient(160deg,#A587B8,#7E5E92 70%)!important;border-color:#6E4F83!important;color:#FFFFFF}
+#empezar .path.top h3{color:#FFFFFF}
+#empezar .path.top p{color:rgba(255,255,255,.85)!important}
+#empezar .path.top .tag{color:rgba(255,255,255,.75)}
+#empezar .path.top .go{color:#FFFFFF}
+@media (hover:hover) and (pointer:fine){#empezar .path.top:hover{box-shadow:0 0 0 5px rgba(126,94,146,.22),0 0 34px 2px rgba(126,94,146,.5),0 20px 34px -14px rgba(20,20,22,.4)!important}}
+
+/* en la esquina, en vez del círculo: dos corcheas unidas, solo el filito, que crecen al tocar */
+.orbit{border:0!important;border-radius:0!important;width:190px!important;height:190px!important;right:-34px!important;top:-26px!important;color:rgba(var(--glow),.45);transform:rotate(8deg)}
+.orbit svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.1;stroke-linejoin:round;stroke-linecap:round;overflow:visible}
+#eventos .fmt:hover .orbit,#eventos .fmt:active .orbit,#empezar .path:hover .orbit,#empezar .path:active .orbit{transform:scale(1.22) rotate(-6deg)!important;color:rgba(var(--glow),.85)}
+#empezar .path:not(.top):hover .orbit{color:rgba(31,63,99,.6)}
+
+/* nuestra letra: Bodoni Moda de revista en títulos y logo; Manrope en el texto; palabra de color en cursiva */
+:root{--serif:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif}
+h1,h2,h3,.logo,.steps-word{font-family:var(--serif)!important;font-optical-sizing:auto}
+h1,h2{font-weight:700;letter-spacing:-.012em!important;line-height:.95}
+h3{font-weight:700;letter-spacing:-.005em!important}
+.path h3,.fmt h3,form.book h3,.reel b,.rep b,.steps b{letter-spacing:0!important}
+.reel b,.rep b,.steps b{font-family:var(--serif);font-weight:700}
+h1 .l,h2 .l{font-style:italic;font-weight:600}
+.logo{font-weight:700;letter-spacing:.01em!important}
+.steps-word{font-weight:800;letter-spacing:-.02em}
+
+/* Bodoni también en lo grande: cinta, precios, Reservar, Gala/Boda…, contactos y botones */
+.ticker-in,.price,.prow .price,.book-word,.occ,.contacts b,.quick b,.prow b,.btn,.fmt .price{font-family:var(--serif)!important}
+.ticker-in{font-weight:700;letter-spacing:0}
+.ticker-in span:nth-child(odd){font-style:italic}
+.book-word,.occ{font-weight:700;letter-spacing:.1em}
+.btn{font-weight:700;letter-spacing:.02em}
+
+/* ===== VARIANTE PROFESIONAL: menos efectos, una sola línea visual ===== */
+/* fondo limpio: sin manchas de color por sección, separadores finos */
+section{background:none!important;padding-block:clamp(72px,10vw,128px)}
+.wrap{max-width:1180px}
+/* menú: texto fino en vez de píldoras moradas */
+.nav a{background:none!important;border:0!important;box-shadow:none!important;color:var(--tx)!important;font:600 12px/1 var(--display)!important;letter-spacing:.14em;padding:8px 10px!important;margin:0!important;transform:none!important}
+.nav a::after{content:"";position:absolute;left:10px;right:calc(100% - 10px);bottom:2px;height:1px;background:currentColor;transform:none!important;inset:auto;transition:right .3s ease}
+@media (hover:hover) and (pointer:fine){.nav a:hover{color:#7E5E92!important}.nav a:hover::after{right:10px}}
+.lang,.chip{background:transparent}
+.lang{border-color:var(--line2)}
+.chip[aria-pressed="true"]{background:#2F2F2D;color:#F4F1EC}
+/* títulos quietos: las letras ya no saltan ni cambian de color */
+.ch{transform:none!important;transition:none!important}
+.ch.on{color:inherit!important;filter:none!important}
+h1.wave .ch,h2.wave .ch{animation:none!important}
+/* botones sobrios: sin brillo que cruza, sombra mínima */
+.btn::after,.chip::after{display:none}
+.btn{box-shadow:none;border-radius:999px}
+@media (hover:hover) and (pointer:fine){.btn:hover{transform:translateY(-2px)!important;box-shadow:0 10px 24px -14px rgba(47,47,45,.45)!important}}
+/* todas las tarjetas con el mismo lenguaje: transparentes, filito, radio 18 */
+.path,.fmt,.rep,.prices,.q,#opiniones .q{border-radius:18px!important}
+.rep{background:transparent!important;border:1px solid var(--line2)!important;backdrop-filter:none}
+.rep div{background:transparent!important;border-color:var(--line2)!important}
+.rep b{color:var(--tx)!important}.rep p{color:var(--tx2)!important}
+@media (hover:hover) and (pointer:fine){.rep div:hover{background:rgba(150,190,232,.14)!important;box-shadow:inset 0 0 0 1px #1F3F63!important;transform:none!important}}
+/* precios como agenda: filas con líneas, sin bloque gris */
+.prices{background:transparent!important;border-top:1px solid var(--tx);border-radius:0!important;padding:0}
+.prow{border-radius:0!important;border-bottom:1px solid var(--line2)!important;padding:24px 4px}
+.prow.hit{background:transparent!important}
+.prow.hit b::after{content:" ★";color:#7E5E92}
+@media (hover:hover) and (pointer:fine){.prow:hover,.prow.hit:hover{background:rgba(183,155,196,.12)!important;color:var(--tx)!important;transform:none!important;box-shadow:none!important}
+  .prow:hover p{color:var(--tx2)!important}.prow:hover .price{color:var(--tx)!important}.prow:hover .book-word{color:var(--acc)!important}}
+/* opiniones: transparentes con filito, comillas en Bodoni */
+#opiniones .q{background:transparent!important;border:1px solid var(--line2)!important;box-shadow:none!important;color:var(--tx2)!important}
+#opiniones .q b{color:var(--acc)!important}
+#opiniones .q i{color:var(--tx2)!important;border-top-color:var(--line)!important}
+#opiniones .q::before{font-family:var(--serif)!important;color:var(--acc)!important}
+@media (hover:hover) and (pointer:fine){#opiniones .q:hover{transform:translateY(-3px)!important;border-color:#1F3F63!important;box-shadow:0 14px 28px -18px rgba(31,63,99,.6)!important}}
+/* pasos de clases: más aire */
+.steps div{padding:26px 22px}
+/* sellos de cada sección: más pequeños y discretos */
+.seal{width:clamp(44px,4.6vw,56px);background:transparent;backdrop-filter:none;box-shadow:none;border:1px solid rgba(var(--cg),.4)}
+@media (hover:hover) and (pointer:fine){.seal:hover{transform:translateY(-2px)!important;background:#FFFFFF;box-shadow:0 8px 20px -10px rgba(var(--cg),.6)!important}}
+/* formulario: tarjeta grafito plana, sin flotar ni inclinarse */
+form.book{animation:none!important;transform:none!important;background:#2F2F2D!important;border:1px solid #2F2F2D!important;
+  box-shadow:0 30px 60px -30px rgba(20,20,22,.55)!important;border-radius:18px!important}
+form.book::after{display:none}
+form.book.ping{animation:ping .9s ease-out 2!important}
+.fld input,.fld select,.fld textarea{border-radius:10px;border-color:#4A4A47}
+/* cinta: más fina y lenta */
+.ticker{padding-block:14px}
+.ticker-in{animation-duration:48s;font-size:clamp(1.4rem,3.6vw,2.2rem)}
+/* pie */
+footer{border-top:1px solid var(--line2);margin-top:20px}
+
+/* «Lo que dicen» como arriba: transparentes con filito y notas; la del medio, la única de color, con la onda */
+#opiniones .q{overflow:hidden;isolation:isolate;position:relative;border-color:rgba(var(--glow),.45)!important}
+#opiniones .q>*{position:relative;z-index:1}
+#opiniones .q .orbit{width:120px!important;height:120px!important;right:-18px!important;top:-14px!important;color:rgba(var(--glow),.3)}
+#opiniones .q::before{position:relative;z-index:1}
+#opiniones .q:hover .orbit,#opiniones .q:active .orbit{transform:scale(1.22) rotate(-6deg)!important;color:rgba(31,63,99,.6)}
+@media (hover:hover) and (pointer:fine){#opiniones .q:not(.top):hover{background:linear-gradient(255deg,rgba(150,190,232,.24),rgba(170,205,240,.10) 70%)!important;border-color:#1F3F63!important;
+  box-shadow:0 0 0 2px #1F3F63,0 0 0 6px rgba(31,63,99,.25),0 0 40px 6px rgba(31,63,99,.55),0 22px 36px -12px rgba(31,63,99,.55)!important}}
+#opiniones .q.top{background:linear-gradient(160deg,#3F6E9E,#2D5B8A 70%)!important;border-color:#1F3F63!important;color:rgba(255,255,255,.88)!important}
+#opiniones .q.top b,#opiniones .q.top::before{color:#FFFFFF!important}
+#opiniones .q.top i{color:rgba(255,255,255,.75)!important;border-top-color:rgba(255,255,255,.25)!important}
+@media (hover:hover) and (pointer:fine){#opiniones .q.top:hover{box-shadow:0 0 0 5px rgba(45,91,138,.22),0 0 34px 2px rgba(45,91,138,.5)!important}}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+</style>
+
+<div class="bar"><div class="bar-in">
+  <a class="logo" href="#top">YULIA<b>/</b>SUÁREZ</a>
+  <nav class="nav" aria-label="Menú">
+    <a href="#artista"><span class="ru">Артистка</span><span class="es">Artista</span></a>
+    <a href="#eventos"><span class="ru">Мероприятия</span><span class="es">Eventos</span></a>
+    <a href="#clases"><span class="ru">Уроки</span><span class="es">Clases</span></a>
+    <a href="#contacto"><span class="ru">Контакты</span><span class="es">Contacto</span></a>
+  </nav>
+  <div class="bar-r">
+    <div class="lang" role="group" aria-label="Язык / Idioma"><button class="chip" type="button" id="l-ru" data-l="ru">RU</button><button class="chip" type="button" id="l-es" data-l="es">ES</button></div>
+    <a class="book-word wv" href="#contacto"><span class="ru">Забронировать</span><span class="es">Reservar</span></a>
+  </div>
+</div></div>
+
+<header class="hero" id="top">
+  <div id="hero-media" class="hero-slot" style="position:absolute;inset:0"></div>
+  <canvas id="stage" aria-hidden="true"></canvas>
+  
+  <div class="hero-in">
+    <span class="eyebrow"><span class="ru">Вокалистка · Вокальный коуч · Москва</span><span class="es">Vocalista · Vocal coach · Moscú</span></span>
+    <h1><span class="ru">Живой<br>голос<br><span class="l">вашего вечера.</span></span><span class="es">La voz<br>en vivo<br><span class="l">de tu noche.</span></span></h1>
+    <p class="lede ru">Гала-вечера, свадьбы, корпоративы и частные события. Баллады, танцевальный сет и латинская программа. А ещё — уроки вокала для тех, кто хочет спеть сам.</p>
+    <p class="lede es">Galas, bodas, fiestas de empresa y eventos privados. Baladas, set bailable y programa latino. Y también clases de canto para quien quiere cantar él mismo.</p>
+    <div class="cta">
+      <a class="btn btn-deep" href="#eventos"><span class="ru">Пригласить на событие</span><span class="es">Contratar para un evento</span> <span class="arr">↗</span></a>
+      <a class="btn" href="#clases"><span class="ru">Записаться на урок</span><span class="es">Reservar una clase</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="ticker ru" aria-hidden="true"><div class="ticker-in">
+  <span>Живой вокал</span><span>Гала <i>·</i> Свадьбы</span><span>Латино</span><span>Баллады</span><span>Корпоративы</span><span>Уроки вокала</span>
+  <span>Живой вокал</span><span>Гала <i>·</i> Свадьбы</span><span>Латино</span><span>Баллады</span><span>Корпоративы</span><span>Уроки вокала</span>
+</div></div>
+<div class="ticker es" aria-hidden="true"><div class="ticker-in">
+  <span>Voz en vivo</span><span>Galas <i>·</i> Bodas</span><span>Latino</span><span>Baladas</span><span>Empresas</span><span>Clases de canto</span>
+  <span>Voz en vivo</span><span>Galas <i>·</i> Bodas</span><span>Latino</span><span>Baladas</span><span>Empresas</span><span>Clases de canto</span>
+</div></div>
+
+<div class="wrap">
+
+<section id="empezar">
+  <div class="head">
+    <span class="eyebrow">Start</span>
+    <h2><span class="ru">С чего <span class="l">начать?</span></span><span class="es">¿Por dónde <span class="l">empiezo?</span></span></h2>
+  </div>
+  <div class="paths">
+    <a class="path" href="#eventos"><div class="orbit" aria-hidden="true"><svg viewBox="0 0 120 120"><ellipse cx="30" cy="94" rx="13" ry="9" transform="rotate(-22 30 94)"/><ellipse cx="84" cy="82" rx="13" ry="9" transform="rotate(-22 84 82)"/><path d="M42 89V24M96 77V12"/><path d="M42 24L96 12v11L42 35z"/></svg></div><span class="tag"><span class="ru">Для события</span><span class="es">Para un evento</span></span><h3><span class="ru">Хочу артистку на вечер</span><span class="es">Quiero una cantante</span></h3><p><span class="ru">Живой вокал на гала, свадьбе или корпоративе. Соло, с DJ или с группой.</span><span class="es">Voz en vivo para gala, boda o fiesta de empresa. Sola, con DJ o con banda.</span></p><span class="go"><span class="ru">Форматы и цены ↗</span><span class="es">Formatos y precios ↗</span></span></a>
+    <a class="path top" href="#clases"><div class="eq-mini" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tag"><span class="ru">Обучение</span><span class="es">Aprender</span></span><h3><span class="ru">Хочу научиться петь</span><span class="es">Quiero aprender a cantar</span></h3><p><span class="ru">Постановка голоса, дыхание, работа с песней. Офлайн в Москве или онлайн.</span><span class="es">Técnica vocal, respiración y trabajo de canción. En Moscú u online.</span></p><span class="go"><span class="ru">Уроки и цены ↗</span><span class="es">Clases y precios ↗</span></span></a>
+    <a class="path" href="#clases"><div class="orbit" aria-hidden="true"><svg viewBox="0 0 120 120"><ellipse cx="30" cy="94" rx="13" ry="9" transform="rotate(-22 30 94)"/><ellipse cx="84" cy="82" rx="13" ry="9" transform="rotate(-22 84 82)"/><path d="M42 89V24M96 77V12"/><path d="M42 24L96 12v11L42 35z"/></svg></div><span class="tag"><span class="ru">Подарок</span><span class="es">Regalo</span></span><h3><span class="ru">Хочу спеть на своём празднике</span><span class="es">Quiero cantar en mi fiesta</span></h3><p><span class="ru">Курс «Спой на своём событии»: одна песня, пять уроков, ваш выход.</span><span class="es">Curso «Canta en tu evento»: una canción, cinco clases, tu momento.</span></p><span class="go"><span class="ru">Подробнее ↗</span><span class="es">Ver más ↗</span></span></a>
+  </div>
+</section>
+
+<section id="artista">
+  <div class="head-row">
+    <div class="head">
+      <span class="eyebrow"><span class="ru">Артистка</span><span class="es">Artista</span></span>
+      <h2><span class="ru">Репертуар <span class="l">вживую</span></span><span class="es">Repertorio <span class="l">en vivo</span></span></h2>
+    </div>
+    <p class="lede"><span class="ru">Только живой голос, без фонограммы. Программа подбирается под ваш вечер.</span><span class="es">Solo voz en vivo, sin playback. El repertorio se adapta a tu noche.</span></p>
+  </div>
+  <div class="rep">
+    <div><b><span class="ru">Гала</span><span class="es">Gala</span></b><p><span class="ru">Баллады и джазовая классика для ужина и торжественных выходов.</span><span class="es">Baladas y clásicos de jazz para la cena y las entradas.</span></p></div>
+    <div><b><span class="ru">Танцы</span><span class="es">Bailable</span></b><p><span class="ru">Хиты, под которые встают из-за столов.</span><span class="es">Éxitos para que la gente se levante de la mesa.</span></p></div>
+    <div><b>Latino</b><p><span class="ru">Бачата, сальса, латинская поп-музыка на испанском.</span><span class="es">Bachata, salsa y pop latino en español.</span></p></div>
+    <div><b><span class="ru">Русская</span><span class="es">Ruso</span></b><p><span class="ru">Романсы и любимые русские хиты.</span><span class="es">Romances y éxitos rusos conocidos.</span></p></div>
+  </div>
+</section>
+
+<section id="eventos">
+  <div class="head-row">
+    <div class="head">
+      <span class="eyebrow"><span class="ru">Мероприятия</span><span class="es">Eventos</span></span>
+      <h2><span class="ru">Формат <span class="l">под ваш вечер</span></span><span class="es">Un formato <span class="l">para tu noche</span></span></h2>
+    </div>
+    <div class="occasions"><button type="button" class="occ" aria-pressed="false"><span class="ru">Гала-ужин</span><span class="es">Gala</span></button><button type="button" class="occ" aria-pressed="false"><span class="ru">Свадьба</span><span class="es">Boda</span></button><button type="button" class="occ" aria-pressed="false"><span class="ru">Корпоратив</span><span class="es">Empresa</span></button><button type="button" class="occ" aria-pressed="false"><span class="ru">Частный вечер</span><span class="es">Fiesta privada</span></button><button type="button" class="occ" aria-pressed="false"><span class="ru">Ресторан</span><span class="es">Restaurante</span></button></div>
+  </div>
+  <div class="formats">
+    <div class="fmt"><div class="orbit" aria-hidden="true"><svg viewBox="0 0 120 120"><ellipse cx="30" cy="94" rx="13" ry="9" transform="rotate(-22 30 94)"/><ellipse cx="84" cy="82" rx="13" ry="9" transform="rotate(-22 84 82)"/><path d="M42 89V24M96 77V12"/><path d="M42 24L96 12v11L42 35z"/></svg></div><span class="tag"><span class="ru">Формат 1</span><span class="es">Formato 1</span></span><h3><span class="ru">Соло</span><span class="es">Sola</span></h3><ul><li><span class="ru">Живой вокал под минус</span><span class="es">Voz en vivo con pistas</span></li><li><span class="ru">2–3 сета по 40 минут</span><span class="es">2–3 sets de 40 minutos</span></li><li><span class="ru">Свой микрофон</span><span class="es">Micrófono propio</span></li></ul><div class="price"><span class="ru">по запросу</span><span class="es">a consultar</span> <small><span class="ru">зависит от даты и площадки</span><span class="es">según fecha y lugar</span></small></div></div>
+    <div class="fmt top"><div class="eq-mini" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="badge"><span class="ru">Чаще всего</span><span class="es">El más pedido</span></span><h3><span class="ru">С DJ</span><span class="es">Con DJ</span></h3><ul><li><span class="ru">Вокал + DJ-сет между выходами</span><span class="es">Voz + DJ entre actuaciones</span></li><li><span class="ru">3 сета по 40 минут</span><span class="es">3 sets de 40 minutos</span></li><li><span class="ru">Музыка весь вечер</span><span class="es">Música toda la noche</span></li></ul><div class="price"><span class="ru">по запросу</span><span class="es">a consultar</span> <small><span class="ru">зависит от даты и площадки</span><span class="es">según fecha y lugar</span></small></div></div>
+    <div class="fmt"><div class="orbit" aria-hidden="true"><svg viewBox="0 0 120 120"><ellipse cx="30" cy="94" rx="13" ry="9" transform="rotate(-22 30 94)"/><ellipse cx="84" cy="82" rx="13" ry="9" transform="rotate(-22 84 82)"/><path d="M42 89V24M96 77V12"/><path d="M42 24L96 12v11L42 35z"/></svg></div><span class="tag"><span class="ru">Формат 3</span><span class="es">Formato 3</span></span><h3><span class="ru">С группой</span><span class="es">Con banda</span></h3><ul><li><span class="ru">Живые музыканты</span><span class="es">Músicos en vivo</span></li><li><span class="ru">Программа под событие</span><span class="es">Programa a medida</span></li><li><span class="ru">Для больших площадок</span><span class="es">Para salas grandes</span></li></ul><div class="price"><span class="ru">по запросу</span><span class="es">a consultar</span></div></div>
+  </div>
+  <div class="rider">
+    <div><b><span class="ru">Звук</span><span class="es">Sonido</span></b><span class="ru">Радиомикрофон, монитор, вход для минусовки.</span><span class="es">Micrófono inalámbrico, monitor y entrada para pistas.</span></div>
+    <div><b><span class="ru">Гримёрка</span><span class="es">Camerino</span></b><span class="ru">Отдельное помещение с зеркалом.</span><span class="es">Sala aparte con espejo.</span></div>
+    <div><b><span class="ru">Бронирование</span><span class="es">Reserva</span></b><span class="ru">Предоплата фиксирует дату.</span><span class="es">Un adelanto fija la fecha.</span></div>
+  </div>
+  <div class="cta"><a class="btn btn-deep" href="#contacto"><span class="ru">Узнать свободные даты</span><span class="es">Ver fechas libres</span> <span class="arr">↗</span></a></div>
+</section>
+
+<section id="clases">
+  <div class="head-row">
+    <div class="head">
+      <span class="eyebrow"><span class="ru">Вокальный коуч</span><span class="es">Vocal coach</span></span>
+      <h2><span class="ru">Спой <span class="l">сам</span></span><span class="es">Canta <span class="l">tú</span></span></h2>
+    </div>
+    <p class="lede"><span class="ru">Юлия поёт на сцене каждую неделю и учит тому, что работает на сцене: дыхание, опора, уверенность и одна песня, доведённая до выхода.</span><span class="es">Yulia canta en escenario cada semana y enseña lo que funciona ahí: respiración, apoyo, seguridad y una canción preparada hasta el día de cantarla.</span></p>
+  </div>
+  <div class="steps-wrap">
+  <div class="steps-word" aria-hidden="true"><span>YULIA</span></div>
+  <div class="steps">
+    <div><span class="num">01</span><b><span class="ru">Песня</span><span class="es">Canción</span></b><p><span class="ru">Выбираем песню под ваш голос и событие.</span><span class="es">Elegimos la canción para tu voz y tu evento.</span></p></div>
+    <div><span class="num">02</span><b><span class="ru">Голос</span><span class="es">Voz</span></b><p><span class="ru">Дыхание, опора, диапазон.</span><span class="es">Respiración, apoyo y registro.</span></p></div>
+    <div><span class="num">03</span><b><span class="ru">Репетиции</span><span class="es">Ensayos</span></b><p><span class="ru">Разбираем песню по частям.</span><span class="es">Trabajamos la canción por partes.</span></p></div>
+    <div><span class="num">04</span><b><span class="ru">Запись</span><span class="es">Grabación</span></b><p><span class="ru">Записываем, чтобы услышать себя.</span><span class="es">Grabamos para que te escuches.</span></p></div>
+    <div><span class="num">05</span><b><span class="ru">Выход</span><span class="es">Tu momento</span></b><p><span class="ru">Поёте на своём празднике.</span><span class="es">Cantas en tu fiesta.</span></p></div>
+  </div>
+  </div>
+  <div class="prices">
+    <div class="prow"><div><b><span class="ru">Пробный урок</span><span class="es">Clase de prueba</span></b><p><span class="ru">45 минут · знакомство с голосом</span><span class="es">45 minutos · conocer tu voz</span></p></div><div class="price">1 500 ₽</div><a class="book-word wv" href="#contacto" data-pick="trial"><span class="ru">Записаться</span><span class="es">Reservar</span></a></div>
+    <div class="prow"><div><b><span class="ru">Индивидуальный урок</span><span class="es">Clase individual</span></b><p><span class="ru">60 минут · офлайн или онлайн</span><span class="es">60 minutos · presencial u online</span></p></div><div class="price">3 000 ₽</div><a class="book-word wv" href="#contacto" data-pick="lesson"><span class="ru">Записаться</span><span class="es">Reservar</span></a></div>
+    <div class="prow hit"><div><b><span class="ru">Курс «Спой на своём событии»</span><span class="es">Curso «Canta en tu evento»</span></b><p><span class="ru">5 уроков · одна песня · ваш выход</span><span class="es">5 clases · una canción · tu momento</span></p></div><div class="price">13 500 ₽</div><a class="book-word" href="#contacto" data-pick="course"><span class="ru">Хочу курс</span><span class="es">Quiero el curso</span></a></div>
+    <div class="prow"><div><b><span class="ru">Сертификат «Твоя песня»</span><span class="es">Certificado «Tu canción»</span></b><p><span class="ru">Подарок: уроки, запись песни и видео</span><span class="es">Regalo: clases, grabación y video</span></p></div><div class="price"><span class="ru">скоро</span><span class="es">pronto</span></div><a class="book-word" href="#contacto" data-pick="gift"><span class="ru">Узнать</span><span class="es">Saber más</span></a></div>
+  </div>
+</section>
+
+
+
+<section id="contacto">
+  <div class="final">
+    <div>
+      <span class="eyebrow">Yulia Suárez</span>
+      <h2 style="margin-top:16px"><span class="ru">Начните<br>с <span class="l">одной даты.</span></span><span class="es">Empieza<br>con <span class="l">una fecha.</span></span></h2>
+      <div class="contacts">
+        <div id="c-tg" hidden><span class="tag">Telegram</span><b><a id="c-tg-a" href="#"></a></b></div>
+        <div id="c-wa" hidden><span class="tag">WhatsApp</span><b><a id="c-wa-a" href="#"></a></b></div>
+        <div id="c-tel" hidden><span class="tag"><span class="ru">Телефон</span><span class="es">Teléfono</span></span><b><a id="c-tel-a" href="#"></a></b></div>
+        <div><span class="tag"><span class="ru">Менеджмент</span><span class="es">Management</span></span><b>Emily de Level</b></div>
+      </div>
+    </div>
+    <form class="book" id="book" novalidate>
+      <h3><span class="ru">Заявка</span><span class="es">Solicitud</span></h3>
+      <div class="two">
+        <label class="fld" for="f-name"><span><span class="ru">Ваше имя</span><span class="es">Tu nombre</span></span><input id="f-name" type="text" autocomplete="name"></label>
+        <label class="fld" for="f-tel"><span><span class="ru">Телефон или мессенджер</span><span class="es">Teléfono o mensajero</span></span><input id="f-tel" type="tel" placeholder="+7 / Telegram / WhatsApp"></label>
+      </div>
+      <div class="two">
+        <label class="fld" for="f-what"><span><span class="ru">Что нужно</span><span class="es">Qué necesitas</span></span>
+          <select id="f-what">
+            <option value="event" data-ru="Мероприятие" data-es="Evento">Мероприятие</option>
+            <option value="trial" data-ru="Пробный урок" data-es="Clase de prueba">Пробный урок</option>
+            <option value="lesson" data-ru="Урок вокала" data-es="Clase de canto">Урок вокала</option>
+            <option value="course" data-ru="Курс «Спой на своём событии»" data-es="Curso «Canta en tu evento»">Курс «Спой на своём событии»</option>
+            <option value="gift" data-ru="Сертификат «Твоя песня»" data-es="Certificado «Tu canción»">Сертификат «Твоя песня»</option>
+          </select></label>
+        <label class="fld" for="f-date"><span><span class="ru">Дата события</span><span class="es">Fecha del evento</span></span><input id="f-date" type="date"></label>
+      </div>
+      <label class="fld" for="f-msg"><span><span class="ru">Комментарий</span><span class="es">Comentario</span></span><textarea id="f-msg"></textarea></label>
+      <button class="btn btn-deep" type="submit"><span class="ru">Отправить заявку</span><span class="es">Enviar solicitud</span> <span class="arr">↗</span></button>
+      <p class="legal"><span class="ru">Заявка откроется в мессенджере и уйдёт напрямую Юлии. Сайт не хранит ваши данные.</span><span class="es">La solicitud se abre en tu mensajería y llega directamente a Yulia. La web no guarda tus datos.</span></p>
+      <p class="sent" id="sent" hidden></p>
+    </form>
+  </div>
+</section>
+
+<footer><span>Yulia Suárez © 2026</span><span><span class="ru">Визуальная режиссура · Emily de Level</span><span class="es">Dirección visual · Emily de Level</span></span></footer>
+</div>
+
+<script>
+// idioma
+function setLang(l){document.body.dataset.l=l;document.documentElement.lang=l;
+  document.querySelectorAll("#f-what option").forEach(o=>{o.textContent=o.dataset[l]||o.textContent});
+  document.querySelectorAll(".lang .chip").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.l===l)));
+  try{localStorage.setItem("jp-lang",l)}catch(e){}}
+document.querySelectorAll(".lang .chip").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.l)));
+let l0="es";try{l0=localStorage.getItem("jp-lang")||"es"}catch(e){}
+setLang(l0);
+
+// botones de clases rellenan el formulario
+document.querySelectorAll("[data-pick]").forEach(a=>a.addEventListener("click",()=>{document.getElementById("f-what").value=a.dataset.pick}));
+document.querySelectorAll('a[href="#eventos"].btn,a[href="#contacto"]:not([data-pick])').forEach(a=>a.addEventListener("click",()=>{document.getElementById("f-what").value="event"}));
+// ====== CONTACTO: rellenar aquí (sin @ ni +) y la web se actualiza sola ======
+const CONTACTO={telegram:"",whatsapp:"",telefono:""}; // p. ej. telegram:"yuliasuarez", whatsapp:"79991234567"
+(function(){const C=CONTACTO,set=(id,href,txt)=>{const d=document.getElementById(id),a=document.getElementById(id+"-a");a.href=href;a.textContent=txt;d.hidden=false};
+ if(C.telegram)set("c-tg","https://t.me/"+C.telegram,"@"+C.telegram);
+ if(C.whatsapp)set("c-wa","https://wa.me/"+C.whatsapp,"+"+C.whatsapp);
+ if(C.telefono)set("c-tel","tel:+"+C.telefono,"+"+C.telefono)})();
+document.getElementById("book").addEventListener("submit",e=>{e.preventDefault();
+ const l=document.body.dataset.l==="ru"?"ru":"es",v=id=>document.getElementById(id).value.trim(),sel=document.getElementById("f-what");
+ const L=l==="ru"?["Заявка с сайта","Имя","Контакт","Что нужно","Дата","Комментарий"]:["Solicitud desde la web","Nombre","Contacto","Qué necesito","Fecha","Comentario"];
+ const txt=[L[0]+" · Yulia Suárez",L[1]+": "+v("f-name"),L[2]+": "+v("f-tel"),L[3]+": "+sel.options[sel.selectedIndex].textContent,v("f-date")?L[4]+": "+v("f-date"):"",v("f-msg")?L[5]+": "+v("f-msg"):""].filter(Boolean).join("\n");
+ const out=document.getElementById("sent");out.hidden=false;
+ if(!v("f-name")||!v("f-tel")){out.textContent=l==="ru"?"Пожалуйста, укажите имя и контакт.":"Escribe tu nombre y un contacto, por favor.";return}
+ if(CONTACTO.whatsapp){window.open("https://wa.me/"+CONTACTO.whatsapp+"?text="+encodeURIComponent(txt),"_blank","noopener");out.textContent=l==="ru"?"Откроется WhatsApp с вашей заявкой — нажмите «Отправить».":"Se abre WhatsApp con tu solicitud: pulsa «Enviar».";return}
+ if(CONTACTO.telegram){try{navigator.clipboard.writeText(txt)}catch(_){ }window.open("https://t.me/"+CONTACTO.telegram,"_blank","noopener");out.textContent=l==="ru"?"Текст заявки скопирован — вставьте его в чат Telegram.":"Texto copiado: pégalo en el chat de Telegram.";return}
+ out.textContent=l==="ru"?"Контакты скоро появятся здесь.":"Los contactos estarán aquí muy pronto."});
+
+// huecos: el archivo elegido se muestra en su sitio
+document.querySelectorAll(".up input").forEach(inp=>inp.addEventListener("change",()=>{
+  const f=inp.files&&inp.files[0];if(!f)return;
+  const box=inp.id==="up-hero"?document.getElementById("hero-media"):inp.closest(".reel,.ph");
+  box.querySelectorAll(".media,.sound").forEach(n=>n.remove());
+  const url=URL.createObjectURL(f),isVid=f.type.startsWith("video");
+  const el=document.createElement(isVid?"video":"img");el.className="media";el.src=url;
+  if(isVid){el.muted=true;el.loop=true;el.autoplay=true;el.playsInline=true;el.play().catch(()=>{});
+    if(box.classList.contains("reel")){const b=document.createElement("button");b.type="button";b.className="sound";b.textContent="♪ ON";
+      b.addEventListener("click",()=>{el.muted=!el.muted;b.textContent=el.muted?"♪ ON":"♪ OFF"});box.appendChild(b)}}
+  else el.alt="";
+  box.prepend(el);(box.closest(".reel,.ph")||box.closest(".hero")).classList.add("has-media");
+}));
+
+// tipos de evento: botones que se quedan hundidos al elegirlos
+document.querySelectorAll(".occ").forEach(b=>b.addEventListener("click",()=>{
+  b.setAttribute("aria-pressed",String(b.getAttribute("aria-pressed")!=="true"));
+  document.getElementById("f-what").value="event"}));
+
+// la solicitud flota y se inclina siguiendo el ratón
+(function(){
+  const f=document.getElementById("book");
+  if(!matchMedia("(hover:hover) and (pointer:fine)").matches||matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  if(1)return;f.addEventListener("pointermove",e=>{const b=f.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;
+    f.style.transform=`perspective(1200px) translateY(-12px) rotateX(${-y*5}deg) rotateY(${x*6}deg) scale(1.015)`});
+  f.addEventListener("pointerleave",()=>{f.style.transform=""});
+})();
+
+// videos de prueba (Mixkit, licencia libre): se cambian por los de Yulia
+(function(){
+  const reels=document.querySelectorAll(".reel"),phs=document.querySelectorAll(".ph");
+  const put=[[document.getElementById("hero-media"),"/_blob/ca424ddd89753b02c50900bdf5360a53"],
+    [reels[0],"/_blob/0e5fd7588ffe7b2a95b81f70e5949254"],[reels[1],"/_blob/3f23bf696eae8b56362b17642ceba982"],[reels[2],"/_blob/4905a4f46f0fba6f2e07d3d840262420"]];
+  put.forEach(([box,url])=>{if(!box)return;
+    const v=document.createElement("video");v.className="media";v.src=url;v.muted=true;v.loop=true;v.autoplay=true;v.playsInline=true;v.preload="metadata";
+    v.setAttribute("muted","");v.setAttribute("playsinline","");box.prepend(v);v.play().catch(()=>{});
+    (box.closest(".reel,.ph")||box.closest(".hero")).classList.add("has-media");
+    if(box.classList.contains("reel")){const b=document.createElement("button");b.type="button";b.className="sound";b.textContent="♪ ON";
+      b.addEventListener("click",()=>{v.muted=!v.muted;b.textContent=v.muted?"♪ ON":"♪ OFF"});box.appendChild(b)}});
+})();
+
+// sellos: un instrumento por sección, en el color de su título; al tocarlo va a la Solicitud
+(function(){
+  const I={
+    notes:'<path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/>',
+    mic:'<rect x="9" y="2.5" width="6" height="11.5" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0"/><path d="M12 17.5V21.5M8.5 21.5h7"/>',
+    guitar:'<circle cx="8.5" cy="15.5" r="5"/><circle cx="8.5" cy="15.5" r="1.4"/><path d="M12 12l7.5-7.5"/><path d="M17.8 3.2l3 3"/>',
+    piano:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7.5 13v6M12 13v6M16.5 13v6"/><rect class="f" x="6.2" y="5" width="2.6" height="8" rx=".6"/><rect class="f" x="10.7" y="5" width="2.6" height="8" rx=".6"/><rect class="f" x="15.2" y="5" width="2.6" height="8" rx=".6"/>',
+    vinyl:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><circle class="f" cx="12" cy="12" r=".9"/><path d="M12 5.5a6.5 6.5 0 0 1 6.5 6.5"/>',
+    phones:'<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4.5" height="6.5" rx="1.6"/><rect x="16.5" y="14" width="4.5" height="6.5" rx="1.6"/>'};
+  const S=[["empezar","notes","#7E5E92","126,94,146","event"],["artista","mic","#2D5B8A","45,91,138","event"],["eventos","guitar","#7E2F2A","126,47,42","event"],
+           ["clases","piano","#7E5E92","126,94,146","course"],["fotos","vinyl","#5A1C3F","90,28,63","event"],["opiniones","phones","#2D5B8A","45,91,138","event"]];
+  S.forEach(([id,ic,c,cg,pick])=>{const sec=document.getElementById(id);if(!sec)return;
+    const a=document.createElement("a");a.className="seal";a.href="#contacto";a.style.setProperty("--c",c);a.style.setProperty("--cg",cg);
+    a.setAttribute("aria-label",document.documentElement.lang==="ru"?"Перейти к заявке":"Ir a la solicitud");
+    a.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true">'+I[ic]+'</svg>';
+    a.addEventListener("click",e=>{e.preventDefault();document.getElementById("f-what").value=pick;
+      const f=document.getElementById("book");f.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"center"});
+      f.classList.remove("ping");setTimeout(()=>f.classList.add("ping"),500);setTimeout(()=>{f.classList.remove("ping");document.getElementById("f-name").focus({preventScroll:true})},2400)});
+    sec.appendChild(a)});
+})();
+
+// onda de sonido: barritas detrás de las palabras marcadas con .wv
+document.querySelectorAll(".wv").forEach(el=>{const n=+el.dataset.n||14,e=document.createElement("span");e.className="eq";e.setAttribute("aria-hidden","true");
+  const H=[.45,.9,1.45,.65,1.15,.8];
+  for(let i=0;i<n;i++){const b=document.createElement("i");b.style.setProperty("--h",H[(i*7)%6]+"em");b.style.setProperty("--d",((i%6)*.12+Math.floor(i/6)*.05).toFixed(2)+"s");e.appendChild(b)}
+  el.prepend(e)});
+
+// letras vivas en los títulos
+(function(){
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  function split(el){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    let i=0;
+    nodes.forEach(n=>{
+      if(!n.nodeValue.trim())return;
+      const frag=document.createDocumentFragment();
+      n.nodeValue.split(/(\s+)/).forEach(part=>{
+        if(!part)return;
+        if(/^\s+$/.test(part)){frag.appendChild(document.createTextNode(part));return}
+        const w=document.createElement("span");w.className="w";
+        for(const c of part){const ch=document.createElement("span");ch.className="ch";ch.textContent=c;ch.style.setProperty("--i",i++);w.appendChild(ch)}
+        frag.appendChild(w)});
+      n.parentNode.replaceChild(frag,n)});
+  }
+  const titles=[...document.querySelectorAll("h1,h2")];
+  titles.forEach(split);
+  titles.forEach(t=>{
+    const big=t.tagName==="H1",reach=big?150:110,lift=big?22:12;
+    let raf=0,px=0,py=0;
+    function move(){raf=0;
+      t.querySelectorAll(".ch").forEach(ch=>{
+        const b=ch.getBoundingClientRect();if(!b.width)return;
+        const d=Math.hypot(b.left+b.width/2-px,b.top+b.height/2-py),k=Math.max(0,1-d/reach);
+        ch.style.transform=k?`translateY(${-k*lift}px) scale(${1+k*.18}) rotate(${(b.left+b.width/2-px)/reach*k*-6}deg)`:"";
+        ch.classList.toggle("on",k>.35)})}
+    t.addEventListener("pointermove",e=>{px=e.clientX;py=e.clientY;if(!raf)raf=requestAnimationFrame(move)});
+    t.addEventListener("pointerleave",()=>t.querySelectorAll(".ch").forEach(ch=>{ch.style.transform="";ch.classList.remove("on")}));
+    t.addEventListener("pointerdown",()=>{t.classList.remove("wave");void t.offsetWidth;t.classList.add("wave")});
+    t.addEventListener("animationend",e=>{if(e.target.classList.contains("ch")&&e.target===t.querySelector(".ch:last-of-type"))t.classList.remove("wave")});
+  });
+  function goldPos(){document.querySelectorAll("h1 .l,#eventos h2 .l").forEach(l=>{const L=l.getBoundingClientRect().left;
+    l.querySelectorAll(".ch").forEach(ch=>ch.style.setProperty("--x",(ch.getBoundingClientRect().left-L)+"px"))})}
+  goldPos();addEventListener("resize",goldPos);document.querySelectorAll(".lang .chip").forEach(b=>b.addEventListener("click",()=>setTimeout(goldPos,30)));
+  
+})();
+
+// portada: foco de escenario, polvo en la luz y onda de voz
+(function(){
+  const c=document.getElementById("stage"),x=c.getContext("2d");
+  const still=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let w,h,dpr,motes=[];
+  function size(){dpr=Math.min(devicePixelRatio||1,2);w=c.clientWidth;h=c.clientHeight;c.width=w*dpr;c.height=h*dpr;x.setTransform(dpr,0,0,dpr,0,0);
+    motes=Array.from({length:Math.round(w/14)},()=>({x:Math.random(),y:Math.random(),r:Math.random()*1.4+.3,s:Math.random()*.15+.03,a:Math.random()}))}
+  function frame(t){
+    x.clearRect(0,0,w,h);
+    const cx=w*(w<720?.5:.72),sway=Math.sin(t/3200)*w*.025;
+    // cono de luz
+    const top=cx+sway, spread=Math.min(w*.32,380);
+    const g=x.createLinearGradient(0,0,0,h);g.addColorStop(0,"rgba(183,155,196,.30)");g.addColorStop(.7,"rgba(183,155,196,.07)");g.addColorStop(1,"rgba(183,155,196,0)");
+    x.fillStyle=g;x.beginPath();x.moveTo(top-18,0);x.lineTo(top+18,0);x.lineTo(cx+spread,h);x.lineTo(cx-spread,h);x.closePath();x.fill();
+    const floor=x.createRadialGradient(cx,h*.98,0,cx,h*.98,spread*1.1);floor.addColorStop(0,"rgba(169,194,182,.35)");floor.addColorStop(1,"rgba(169,194,182,0)");
+    x.fillStyle=floor;x.fillRect(0,h*.6,w,h*.4);
+    // polvo dentro de la luz
+    for(const m of motes){m.y-=m.s/600*(still?0:16);if(m.y<0)m.y=1;
+      const px=cx+(m.x-.5)*spread*2*m.y, py=m.y*h, tw=.35+.65*Math.abs(Math.sin(t/900+m.a*6));
+      x.fillStyle=`rgba(126,94,146,${.45*tw*(1-m.y*.6)})`;x.beginPath();x.arc(px,py,m.r,0,7);x.fill()}
+    // onda de voz
+    x.lineWidth=1.5;x.strokeStyle="rgba(126,94,146,.5)";x.beginPath();
+    const base=h*.9;
+    for(let i=0;i<=w;i+=4){const k=i/w,env=Math.sin(Math.PI*k);
+      const y=base+env*(Math.sin(k*28+t/260)*14+Math.sin(k*61-t/180)*6)*(.6+.4*Math.sin(t/1400));
+      i?x.lineTo(i,y):x.moveTo(i,y)}
+    x.stroke();
+    if(!still)requestAnimationFrame(frame)}
+  size();addEventListener("resize",size);requestAnimationFrame(frame);
+})();
+</script>
