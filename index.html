@@ -766,7 +766,7 @@ setLang(l0);
 document.querySelectorAll("[data-pick]").forEach(a=>a.addEventListener("click",()=>{document.getElementById("f-what").value=a.dataset.pick}));
 document.querySelectorAll('a[href="#eventos"].btn,a[href="#contacto"]:not([data-pick])').forEach(a=>a.addEventListener("click",()=>{document.getElementById("f-what").value="event"}));
 // ====== CONTACTO: rellenar aquí (sin @ ni +) y la web se actualiza sola ======
-const CONTACTO={telegram:"",whatsapp:"",telefono:""}; // p. ej. telegram:"yuliasuarez", whatsapp:"79991234567"
+const CONTACTO={telegram:"yulia_suares",whatsapp:"79264661703",telefono:""}; // p. ej. telegram:"yuliasuarez", whatsapp:"79991234567"
 (function(){const C=CONTACTO,set=(id,href,txt)=>{const d=document.getElementById(id),a=document.getElementById(id+"-a");a.href=href;a.textContent=txt;d.hidden=false};
  if(C.telegram)set("c-tg","https://t.me/"+C.telegram,"@"+C.telegram);
  if(C.whatsapp)set("c-wa","https://wa.me/"+C.whatsapp,"+"+C.whatsapp);
